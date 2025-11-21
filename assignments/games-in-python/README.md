@@ -1,25 +1,23 @@
 # 🎮 Assignment: Games in Python
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Nesta tarefa, você implementará um jogo clássico de adivinhação (Hangman) em Python.
-Você praticará o uso de strings, loops, condicionais, seleção aleatória, manipulação de dados, controle de fluxo e interação com o usuário.
+Nesta tarefa, você implementará um jogo clássico de adivinhação (Hangman) em Python. Você praticará o uso de strings, loops, condicionais, seleção aleatória, manipulação de dados, controle de fluxo e interação com o usuário.
 
-## 📝 Tasks
+## 📝 Tarefas
 
 ### 🛠️ Implementar o Jogo Hangman
 
-#### Description
+#### Descrição
 Crie um jogo de Hangman completo onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotarem as tentativas.
 
-#### Requirements
+#### Requisitos
 Completed program should:
 
 - Selecionar aleatoriamente uma palavra de uma lista predefinida
-- Exibir o progresso atual no formato `_ _ _`
 - Exibir o progresso atual no formato `_ _ _` (letras adivinhadas e espaços em branco)
 - Rastrear o número de tentativas incorretas restantes
-- Validar entrada do usuário (verificar se é uma letra válida e se já foi adivinada)
+- Validar entrada do usuário (verificar se é uma letra válida e se já foi adivinhada)
 - Encerrar o jogo quando a palavra for adivinhada ou as tentativas se esgotarem
 - Exibir mensagens de vitória ou derrota com o resultado final
 
@@ -33,10 +31,10 @@ Palavra: a _ _ _ _ _
 
 ### 🛠️ Melhorias Opcionais
 
-#### Description
+#### Descrição
 Expanda seu jogo com recursos adicionais para maior desafio.
 
-#### Requirements
+#### Requisitos
 Completed program should (choose at least 2):
 
 - Implementar dificuldade (fácil, médio, difícil com diferentes números de tentativas)
